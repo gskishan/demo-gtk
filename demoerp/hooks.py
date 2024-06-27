@@ -121,7 +121,10 @@ app_license = "mit"
 # Document Events
 # ---------------
 # Hook on document methods and events
-
+doc_events = {
+    "Lead": {
+        "validate": "demoerp.demoerp.lead.lead_validate"
+    },
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
