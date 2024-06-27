@@ -1,5 +1,5 @@
 import frappe
-from erpnext.selling.doctype.sales_order.sales_order import make_project
+from erpnext.CRM.doctype.lead.lead import make_project
 
 # @frappe.whitelist()
 # def validate(self, method):
