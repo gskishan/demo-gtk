@@ -123,7 +123,7 @@ app_license = "mit"
 # Hook on document methods and events
 doc_events = {
     "Lead": {
-        "validate": "demoerp.custom_script.lead.leadlead_validate"
+        "validate": "demoerp.custom_script.lead.lead_validate"
     },
 }
 # doc_events = {
