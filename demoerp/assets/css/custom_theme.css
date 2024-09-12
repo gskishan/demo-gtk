@@ -1,0 +1,7 @@
+[data-theme="light"] .navbar-home img {
+    content: url('/files/GTK Logo Black_1@4x.png');
+}
+
+[data-theme="dark"] .navbar-home img {
+    content: url('/files/GTK Logo white@4x copy.png');
+}
