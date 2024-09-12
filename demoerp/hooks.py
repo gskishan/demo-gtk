@@ -10,7 +10,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/demoerp/css/demoerp.css"
+app_include_css = "/demoerp/assets/css/custom_theme.css"
 # app_include_js = "/assets/demoerp/js/demoerp.js"
 
 # include js, css files in header of web template
