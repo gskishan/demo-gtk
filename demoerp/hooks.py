@@ -114,9 +114,11 @@ app_include_css = "/demoerp/assets/css/custom_theme.css"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+
+"Payment Entry":"demoerp.custom_script.payment_entry.payment_entry.CustomPaymentEntry"
+	
+}
 
 # Document Events
 # ---------------
